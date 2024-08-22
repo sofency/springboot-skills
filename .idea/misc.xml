@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-config/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-template-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-middleware-config/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf65e4d8-d11d-4b3c-837b-06e834825ec4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-template-base/springboot-template-base/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/src/main/java/com/example/springbootmiddlewareconfig/SpringbootMiddlewareConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/src/main/java/com/example/springbootmiddlewareconfig/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/src/main/java/com/example/springbootmiddlewareconfig/consumer/KafkaMessageConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/src/main/java/com/example/springbootmiddlewareconfig/handler/KafkaMessageErrorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/src/main/java/com/example/springbootmiddlewareconfig/handler/KafkaSendResultHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/src/main/java/com/example/springbootmiddlewareconfig/sender/KafkaMessageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/src/main/java/com/example/springbootmiddlewareconfig/service/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/src/main/java/com/example/springbootmiddlewareconfig/service/impl/RedisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/src/test/java/com/example/springbootmiddlewareconfig/SpringbootMiddlewareConfigApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,22 +28,32 @@
       <list>
         <option value="AnnotationType" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/springboot-middleware-config" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/software/repository" />
+        <option name="useMavenConfig" value="false" />
+        <option name="userSettingsFile" value="$USER_HOME$/software/apache-maven-3.6.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2kyKdVmYgRIJGD2uHUrgRGxH9F0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,17 +69,23 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "File.Encoding",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "redis"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.SpringbootTemplateUtilsApplication">
+  <component name="RunManager" selected="Spring Boot.TemplateUtilsApplication">
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
@@ -70,6 +96,13 @@
     <configuration name="SpringbootConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="springboot-config" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootconfig.SpringbootConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootMiddlewareConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot-middleware-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootmiddlewareconfig.SpringbootMiddlewareConfigApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,11 +123,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724250463929</updated>
-      <workItem from="1724250464978" duration="10258000" />
+      <workItem from="1724250464978" duration="11556000" />
+      <workItem from="1724324739696" duration="1080000" />
+      <workItem from="1724325832885" duration="6001000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

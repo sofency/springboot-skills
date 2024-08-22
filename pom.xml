@@ -16,5 +16,6 @@
 
   <modules>
     <module>springboot-template-base</module>
+    <module>springboot-middleware-config</module>
   </modules>
 </project>
