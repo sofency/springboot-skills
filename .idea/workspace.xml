@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf65e4d8-d11d-4b3c-837b-06e834825ec4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-template-base/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-template-base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/TemplateUtilsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/annotation/OperateLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/aspect/OperateLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/constant/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/entity/OperationLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/enums/StatusInfoEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/handler/ControllerAdviceHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/utils/IpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/utils/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/vo/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/test/java/com/example/templateutils/SpringbootTemplateUtilsApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2kyKdVmYgRIJGD2uHUrgRGxH9F0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.SpringbootTemplateUtilsApplication">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootconfig.SpringbootConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateUtilsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot-template-base" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.templateutils.TemplateUtilsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf65e4d8-d11d-4b3c-837b-06e834825ec4" name="Changes" comment="" />
+      <created>1724250463929</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724250463929</updated>
+      <workItem from="1724250464978" duration="9822000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
