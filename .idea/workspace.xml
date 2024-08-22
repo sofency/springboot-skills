@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf65e4d8-d11d-4b3c-837b-06e834825ec4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-template-base/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-template-base/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/TemplateUtilsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/annotation/OperateLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/aspect/OperateLogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/constant/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/entity/OperationLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/enums/StatusInfoEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/exception/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/handler/ControllerAdviceHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/utils/IpUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/utils/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/java/com/example/templateutils/vo/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-template-base/src/test/java/com/example/templateutils/SpringbootTemplateUtilsApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-template-base/springboot-template-base/.gitignore" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -107,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724250463929</updated>
-      <workItem from="1724250464978" duration="9822000" />
+      <workItem from="1724250464978" duration="10258000" />
     </task>
     <servers />
   </component>
