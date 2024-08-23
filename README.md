@@ -3,4 +3,8 @@
 
 - springboot-template-base 
 
-    springboot项目中经常使用的方法总结 比如常用的工具类，注解，跨域，异常，通用请求
+    springboot项目中经常使用的方法总结 比如常用的工具类，注解，跨域，异常，通用请求体
+
+- springboot-middleware-config
+  
+    springboot中常用中间件的配置及其使用，目前redis, kafka, rabbitmq延迟队列
