@@ -26,6 +26,10 @@ public class ThreadPoolConfig {
         executor.setQueueCapacity(20); // 队列容量
         executor.setKeepAliveSeconds(30); // 线程存活时间
         executor.setThreadNamePrefix("custom-thread-"); // 线程名前缀
+        // AbortPolicy 默认拒绝策略，当任务无法被提交给线程池时，会直接抛出RejectedExecutionException异常
+        // CallerRunsPolicy 当任务无法被提交给线程池时，会由提交任务的线程自己执行该任务。
+        // DiscardPolicy 当任务无法被提交给线程池时，会直接丢弃该任务，没有任何提示或处理。
+        // DiscardOldestPolicy 当任务无法被提交给线程池时，会丢弃最早的一个任务，然后尝试再次提交。
         executor.setRejectedExecutionHandler(new ThreadPoolExecutor.CallerRunsPolicy()); // 拒绝策略
         return executor;
     }
