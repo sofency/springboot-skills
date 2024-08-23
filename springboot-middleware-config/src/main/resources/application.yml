@@ -48,3 +48,15 @@ spring:
     # manual_immediate：手动调用Acknowledgment.acknowledge()后立即提交，一般推荐使用这种
     listener:
       ack-mode: manual_immediate
+
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+    requested-heartbeat: 30
+    listener:
+      direct:
+        acknowledge-mode: manual #手动确认

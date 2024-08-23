@@ -1,10 +1,9 @@
-﻿package com.example.springbootmiddlewareconfig.sender;
+﻿package com.example.springbootmiddlewareconfig.producer;
 
 import com.example.springbootmiddlewareconfig.handler.KafkaSendResultHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;
-import org.springframework.transaction.annotation.Transactional;
 
 /**
  * <p>Project: springboot-skills - KafkaMessageSender
@@ -16,10 +15,10 @@ import org.springframework.transaction.annotation.Transactional;
  */
 @Component
 // @Transactional(rollbackFor = RuntimeException.class) 开启事务后才生效
-public class KafkaMessageSender {
+public class KafkaMessageProducer {
     private final KafkaTemplate<Object, Object> kafkaTemplate;
-    @Autowired
-    public KafkaMessageSender(KafkaTemplate<Object, Object> kafkaTemplate) {
+
+    public KafkaMessageProducer(KafkaTemplate<Object, Object> kafkaTemplate) {
         this.kafkaTemplate = kafkaTemplate;
         this.kafkaTemplate.setProducerListener(new KafkaSendResultHandler());
     }

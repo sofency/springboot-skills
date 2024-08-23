@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf65e4d8-d11d-4b3c-837b-06e834825ec4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/src/main/java/com/example/springbootmiddlewareconfig/SpringbootMiddlewareConfigApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/src/main/java/com/example/springbootmiddlewareconfig/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/src/main/java/com/example/springbootmiddlewareconfig/consumer/KafkaMessageConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/src/main/java/com/example/springbootmiddlewareconfig/handler/KafkaMessageErrorHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/src/main/java/com/example/springbootmiddlewareconfig/handler/KafkaSendResultHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/src/main/java/com/example/springbootmiddlewareconfig/sender/KafkaMessageSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/src/main/java/com/example/springbootmiddlewareconfig/service/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/src/main/java/com/example/springbootmiddlewareconfig/service/impl/RedisServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-middleware-config/src/test/java/com/example/springbootmiddlewareconfig/SpringbootMiddlewareConfigApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bf65e4d8-d11d-4b3c-837b-06e834825ec4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/springboot-middleware-config" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -69,14 +56,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "File.Encoding",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -125,7 +112,8 @@
       <updated>1724250463929</updated>
       <workItem from="1724250464978" duration="11556000" />
       <workItem from="1724324739696" duration="1080000" />
-      <workItem from="1724325832885" duration="6001000" />
+      <workItem from="1724325832885" duration="6219000" />
+      <workItem from="1724377726759" duration="5042000" />
     </task>
     <servers />
   </component>
