@@ -47,6 +47,7 @@ public class IpUtils {
                     } catch (UnknownHostException e) {
                         e.printStackTrace();
                     }
+                    assert inet != null;
                     ipAddress = inet.getHostAddress();
                 }
             }

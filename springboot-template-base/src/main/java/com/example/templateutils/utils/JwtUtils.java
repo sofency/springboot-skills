@@ -45,7 +45,6 @@ public class JwtUtils {
                 Collectors.toMap(Map.Entry::getKey, entry -> entry.getValue().asString()));
     }
 
-
     /**
      * 验证token
      */
